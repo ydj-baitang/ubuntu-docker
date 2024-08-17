@@ -1,7 +1,6 @@
 Ubuntu22.04上部署Docker容器和安装Docker compose
 
 解决docker官网国内访问不了，没法拉取镜像的问题。
-虽然docker官方访问不了，但是还有很多仍在服务的镜像源供我们使用。
 
 1.	安装步骤
 
@@ -24,7 +23,6 @@ vim /etc/docker/daemon.json      ##创建daemon.json文件
 在文件daemon.json写入一下内容：
 
 {
-
     "registry-mirrors": ["https://docker.rainbond.cc"]
 
 }
