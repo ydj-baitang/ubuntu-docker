@@ -23,8 +23,8 @@ vim /etc/docker/daemon.json      ##创建daemon.json文件
 在文件daemon.json写入一下内容：
 
 {
-    "registry-mirrors": ["https://docker.rainbond.cc"]
 
+    "registry-mirrors": ["https://docker.rainbond.cc"]
 }
 
 3.在文件/etc/systemd/system/下创建docker.service，用于启动docker服务（docker.service内容如下）：
