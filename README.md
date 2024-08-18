@@ -2,7 +2,7 @@ Ubuntu22.04上部署Docker容器和安装Docker compose
 
 解决docker官网国内访问不了，没法拉取镜像的问题。
 
-1.	安装步骤
+1.安装步骤
 
 sudo apt update && sudo apt upgrade   ##更新ubuntu系统
 
