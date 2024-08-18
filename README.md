@@ -100,7 +100,7 @@ docker ps           ##查看正在运行的 Docker 容器
 
 Docker Compose 是一个可用于定义和运行多容器 Docker 应用程序的工具。使用 Compose，你可以使用 Compose 文件来配置应用程序的服务。然后，使用单个命令，你可以从配置中创建和启动所有服务。
 
-10.从github（https://github.com/docker/compose/releases/）上下载安装Docker Compose
+10.从github（https://github.com/docker/compose/releases/）上下载安装Docker-Compose
 
 sudo curl -L "https://github.com/docker/compose/releases/download/v2.29.1/docker-compose-$(uname -s)-$(uname -
 m)" -o /usr/local/bin/docker-compose
