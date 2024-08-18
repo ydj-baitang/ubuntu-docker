@@ -1,3 +1,5 @@
+如果是docker已经安装并却可以运行，知识拉取镜像有问题看一下第二点。如果有需要文档的可以下载docker.docx文件，里面包含了详细过程。
+
 Ubuntu22.04上部署Docker容器和安装Docker compose
 
 解决docker官网国内访问不了，没法拉取镜像的问题。
