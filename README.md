@@ -1,4 +1,4 @@
-如果是docker已经安装并却可以运行，知识拉取镜像有问题看一下第二点。如果有需要文档的可以下载docker.docx文件，里面包含了详细过程。
+如果是docker已经安装并且可以运行，只是拉取镜像测试运行（sudo docker run hello-world）有问题看一下第二点。如果有需要文档的可以下载docker.docx文件，里面包含了详细过程。
 
 Ubuntu22.04上部署Docker容器和安装Docker compose
 
