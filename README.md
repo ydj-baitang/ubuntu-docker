@@ -14,6 +14,7 @@ tar -zxvf docker-23.0.6.tgz      ##解压下载好的docker
 
 cp docker/* /usr/local/bin      ##将docker下的所有文件拷贝到bin目录
 
+
 2.在etc文件下创建一个docker目录，配置docker镜像加速，在docker目录下创建daemon.json文件
 
 sudo mkdir /etc/docker           ##创建一个docker目录
