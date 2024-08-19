@@ -26,7 +26,8 @@ vim /etc/docker/daemon.json      ##创建daemon.json文件
 
 sudo systemctl restart docker   ##重启docker
 
-然后再次拉去镜像尝试
+2.然后再次拉去镜像尝试
+
 sudo docker run hello-world   ##测试docker是否正常运行
 
 sudo docker run -d -p 8080:80 nginx ##测试拉取和运行其他镜像
@@ -40,6 +41,7 @@ sudo docker run --name my-nginx -p 8080:80 -d nginx      ##运行储存库中的
 -p 8080:80：指定端口映射，将本地主机的 8080 端口映射到容器内的 80 端口。
 
 -d：容器将在后台运行，而不是在终端中显示其输出。
+
 
 sudo docker images                           ##查看本地存储的 Docker 镜像
 
