@@ -19,7 +19,9 @@ vim /etc/docker/daemon.json      ##创建daemon.json文件
 第二个
 
 {
+
         "registry-mirrors": ["https://hub.atomgit.com"]
+
 }
 
 sudo systemctl restart docker   ##重启docker
